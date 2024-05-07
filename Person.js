@@ -30,7 +30,10 @@ let obj={
     }
 }
 
-class Person{    
+class Person{
+    interval = null;
+    next_frag = null;
+    next_frag_i =0;
     constructor(name, hp, regHp, mana, regMana, damageOt, damageDo, fizzach, uklon, block, vampirizm, skat){
         this.name = name;
         this.hp = hp;
